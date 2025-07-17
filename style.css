@@ -55,3 +55,31 @@ h1, h2 {
 p {
   max-width
 >>>>>>> 98f19835f4248b60b5bf202cd61d19757c18d919
+/* === Notes Dashboard Styles === */
+.notes-dashboard {
+  background-color: #0c0c0c;
+  color: #fdfdfd;
+  font-family: 'Georgia', serif;
+  padding: 2em;
+}
+
+.note-entry {
+  background: #1e1e1e;
+  border-left: 4px solid #fbbf24;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #facc15;
+  transition: all 0.3s ease;
+}
+
+.note-entry:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 16px #fde68a;
+}
+
+.note-entry a {
+  color: #fbbf24;
+  text-decoration: none;
+  font-weight: bold;
+}
